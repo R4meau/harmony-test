@@ -3,9 +3,6 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
-import RNLanguages from 'react-native-languages';
-import i18n from './i18n';
 import React, { Component } from 'react';
 
 import { Provider } from 'react-redux';

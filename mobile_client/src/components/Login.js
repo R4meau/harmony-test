@@ -3,12 +3,6 @@ import { View, Text, TouchableHighlight, TextInput, StyleSheet, Modal, ImageBack
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 import {connect} from "react-redux";
-import {bindActionCreators} from "redux";
-import * as ToolbarActions from "../actions/ToolBarActions";
-import PosStorage from "../database/PosStorage";
-import Synchronization from "../services/Synchronization";
-
-import i18n from '../app/i18n';
 
 
 class Login extends Component {

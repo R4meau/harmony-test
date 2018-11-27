@@ -23,7 +23,6 @@ const marginSpacing = Math.round((20 * height)/752);
 const inputTextWidth = 400;
 const marginInputItems = width/2 -inputTextWidth/2;
 
-const supportedUILanguages = [
 	{name: 'English', iso_code: 'en'},
 	{name: 'Français', iso_code: 'fr'},
 	{name: 'Kreyòl Ayisyen', iso_code: 'ht'}
@@ -60,9 +59,7 @@ class SettingsProperty extends Component {
 	onChangeText = (text )=>{
 		this.setState({propertyText :text});
 		this.props.parent.forceUpdate();
-	}
-}
-
+		
 class SettingsButton extends Component {
 
 	render() {
